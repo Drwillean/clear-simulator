@@ -52,9 +52,9 @@ function App() {
 
   // Generate heatmap data
   const heatmapData = useMemo(() => {
-    // TVL range: $10k to $500k
-    const tvlRange = [10000, 25000, 50000, 75000, 100000, 150000, 200000, 250000, 300000, 400000, 500000]
-    
+    // TVL range: $10k to $1M
+    const tvlRange = [10000, 25000, 50000, 100000, 150000, 200000, 300000, 400000, 500000, 750000, 1000000]
+
     // Volume range: $100k to $20M
     const volumeRange = [100000, 250000, 500000, 1000000, 2000000, 5000000, 10000000, 15000000, 18000000, 20000000]
     
